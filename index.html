@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+ <h1>
+formulario </h1>
+<form>
+<label for ="usuario"> nombre del cliente</label>
+<input type ="usuario"  name="ap-pat" id="usuario" minlength="8" maxlength ="12" placeholder="ingresa tu nombre">
+<br>
+<label for ="psw"> pin cliente </label>
+<input type = "password" nombre="psw" id="psw"  minlength="4" maxlength ="4" placeholder="ingresa tu pin" pattern="[0-9]{8}">
+<br>
+<label for ="cantidad"> tamaño del vaso </label>
+<input type = "number" nombre="cantidad" id="cantidad" min="10" max ="15" step="1">
+<br>
+<label for ="opcion"> tipo de chile: </label>
+<select name ="  " id=" ">
+<option value "opcion1 "> del que pica </option>
+<option value "opcion2 "> del que no pica </option>
+<option value "opcion3 "> de arbol </option>
+<option value "opcion4 "> de chapulin </option>
+<option value "opcion5 "> habanero </option>
+<option value "opcion6 "> sin chile </option>
+</select>
+<br>
+<label for ="rango"> cantidad de chile </label>
+<input type= "range" min="10" max="15" step="1" name="rango" id="rango">
+<br>
+<label for="radio"> con limon: </label>
+<input type= "radio"  name="opciones" id="opcion1" value="si">
+<label for="opcion1"> si </label>
+
+<input type= "radio"  name="opciones" id="opcion1" value="no">
+<label for="opcion2"> no </label>
+<br>
+<label for="checkbox"> ingrediente extra </label>
+<input type= "checkbox"  name="opciones" id="opcion1" value="opciones">
+<label for="opcion1"> bufalo </label>
+<input type= "checkbox"  name="opciones" id="opcion2" value="opciones">
+<label for="opcion2"> valentina </label>
+<br>
+<input type= "checkbox"  name="opciones" id="opcion3" value="opciones">
+<label for="opcion3"> tajin </label>
+<br>
+<textarea name="area1" id="area1"  cols="15" rows ="10">
+texto por defecto
+</textarea>
+<br>
+
+<input type= "submit" value="Enviar">
+<br>
+<input type= "reset" value="Cancelar Orden">
+<br>
+<input type= "color" value="F">
+<input type= "email" value=" ">
+<input type= "date" value="d">
+<br>
+<input type= "time" value="c">
+<input type= "pime" value="l">
+   </form>     
+      </div>
+    </div>
+  </body>
+</html>
